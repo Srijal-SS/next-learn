@@ -1,0 +1,20 @@
+{
+  "_def": {
+    "unknownKeys": "strip",
+    "catchall": {
+      "_def": {
+        "typeName": "ZodNever"
+      },
+      "~standard": {
+        "version": 1,
+        "vendor": "zod"
+      }
+    },
+    "typeName": "ZodObject"
+  },
+  "~standard": {
+    "version": 1,
+    "vendor": "zod"
+  },
+  "_cached": null
+}

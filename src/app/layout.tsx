@@ -4,6 +4,7 @@ import "./globals.css";
 import { Sidebar } from "@/components/Sidebar";
 import { Toaster } from "sonner";
 import { cn } from "@/lib/utils";
+import { BottomNav } from "@/components/BottomNav";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -41,7 +42,7 @@ export default function RootLayout({
             {children}
           </div>
         </main>
-        
+        <BottomNav />
         <Toaster theme="dark" position="bottom-right" />
       </body>
     </html>
