@@ -5,6 +5,7 @@ import { Sidebar } from "@/components/Sidebar";
 import { Toaster } from "sonner";
 import { cn } from "@/lib/utils";
 import { BottomNav } from "@/components/BottomNav";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -45,6 +46,7 @@ export default function RootLayout({
         <BottomNav />
         <Toaster theme="dark" position="bottom-right" />
       </body>
+      <SpeedInsights />
     </html>
   );
 }
