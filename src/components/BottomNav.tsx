@@ -33,7 +33,7 @@ export function BottomNav() {
                   {isActive && (
                     <motion.div
                       layoutId="active-bottom-nav"
-                      className="absolute inset-[-4px] bg-neutral-800/80 rounded-full"
+                      className="absolute -inset-1 bg-neutral-800/80 rounded-full"
                       transition={{ type: "spring", stiffness: 300, damping: 20 }}
                     />
                   )}
